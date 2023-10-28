@@ -19,19 +19,19 @@ public class Radio {
         this.currentVolume = currentVolume;
     }
 
-        public void increaseVolume() {
+    public void increaseVolume() {
         if (currentVolume != 100) {
             currentVolume++;
             return;
         }
-        
+
     }
 
-        public void reduceVolume() {
+    public void reduceVolume() {
         if (currentVolume != 0) {
             currentVolume--;
             return;
-        }       
+        }
     }
 
     // public void increaseVolumeOverMax() {
@@ -74,7 +74,7 @@ public class Radio {
         } else {
             currentRadioStation = 9;
         }
-        
+
     }
 
     // public void setNextRadioStationOverMax() {
